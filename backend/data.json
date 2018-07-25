@@ -1,3 +1,26 @@
-[{
-    "id": "1"
-}]
+[
+    {
+        "id": "1",
+        "image_url": "http://g03.a.alicdn.com/kf/HTB10dQfKXXXXXaqXVXXq6xXFXXXl/2016-Brand-New-Bags-For-Women-Fashion-Leather-Handbags-Luxury-Women-Messenger-Bags-bolsa-feminina-Lady.jpg"
+    },
+    {
+        "id": "2",
+        "image_url": "https://i.pinimg.com/736x/77/8a/78/778a78eeea9c6c7c71c6f62649b3ad80--vegan-bag-leather-totes.jpg"
+    },
+    {
+        "id": "3",
+        "image_url": "https://ae01.alicdn.com/kf/HTB1hBtdQFXXXXX9XFXXq6xXFXXXK/2017-Fashion-Designer-Casual-Tote-High-Quality-Leather-Bags-Handbags-Women-Famous-Brands-Shoulder-Bag-sac.jpg_640x640.jpg"
+    },
+    {
+        "id": "4",
+        "image_url": "http://images.hurleys.co.uk/images/products/zoom/1389794606-32361000.jpg"
+    },
+    {
+        "id": "5",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81PS93u9zqL._UX385_.jpg"
+    },
+    {
+        "id": "6",
+        "image_url": "https://cache.net-a-porter.com/images/products/816752/816752_in_pp.jpg"
+    }
+]
