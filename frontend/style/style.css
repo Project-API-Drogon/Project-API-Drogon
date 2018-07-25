@@ -4,3 +4,11 @@
 .bg-dark {
     background-color: #8A5E54!important;
 }
+.images{
+    
+    width: 500px;
+    height: 500px;
+}
+.cont{
+    margin-top: 10%;
+}
