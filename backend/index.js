@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-let chair = require('./data')
+let bag = require('./data')
 
 app.use((req, res, next) =>{
     res.header('Access-Control-Allow-Origin', '*')
@@ -9,21 +9,21 @@ app.use((req, res, next) =>{
     next()
 })
 
-
+// app.use(bodyParser)
 app.use(bodyParser.json())
 app.get('/', (req, res) => res.send('Welcome to Fake JSON API'))
-app.get('/api/bag', (req, res) => {res.send(chair)})
+app.get('/api/bag', (req, res) => {res.send(bag)})
 
-const addChair = (list, item) => {
-    list.push(item)
-    return list
-}
+// const addChair = (list, item) => {
+//     list.push(item)
+//     return list
+// }
 
-app.post('/api/bag', (req, res) => {
-    const newChair = req.body
-    const newItemChair = addChair(chair, newChair)
-    chair = newItemChair
-    res.send(chair)
-})
+// app.post('/api/bag', (req, res) => {
+//     const newBag = req.body
+//     const newItemBag = addChair(chair, newBag)
+//     chair = newItemBag
+//     res.send(bag)
+// })
 
 app.listen(3000, () => console.log('Fake JSON API'))
