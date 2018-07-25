@@ -8,15 +8,15 @@ const bags = async () => {
         return err
     })
     response.map((res)=> {
-        document.getElementById("bag-card").innerHTML = document.getElementById("bag-card") + 
+        document.getElementById("bag-card").innerHTML = document.getElementById("bag-card").innerHTML + 
         `<div>
-          <div class="card mt-3" style="width: 15rem;">
+        <div class="card mt-3" style="width: 15rem;">
           <img class="card-img-top" src="${res.image_url}" alt="Follower Avatar">
           <div class="card-body">
-            <h5 class="card-title">${res.id}</h5>
+            <h5 class="card-title">Number ${res.id}</h5>
           </div>
         </div>
-      </div>`
+        </div>`
     })
 }
 
